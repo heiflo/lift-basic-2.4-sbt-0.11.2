@@ -28,7 +28,7 @@ libraryDependencies ++= {
   
 libraryDependencies ++= Seq(
   "junit" % "junit" % "4.5" % "test->default",
-  "org.mortbay.jetty" % "jetty" % "6.1.26" % "container",
+  "org.eclipse.jetty" % "jetty-webapp" % "7.5.4.v20111024" % "container",
   "javax.servlet" % "servlet-api" % "2.5" % "provided->default",
   "com.h2database" % "h2" % "1.2.138",
   "ch.qos.logback" % "logback-classic" % "0.9.26" % "compile->default",
