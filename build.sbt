@@ -11,11 +11,7 @@ seq(webSettings: _*)
 
 resolvers += "Java.net Maven2 Repo" at "http://download.java.net/maven/2/"
 
-resolvers += "Lift Snapshots" at "http://scala-tools.org/repo-snapshots/"
-
-resolvers += "Scala-Tools Maven2 Repository" at "http://scala-tools.org/repo-releases"
-
-resolvers += "Scala-Tools Maven2 Snapshot Repository" at "http://scala-tools.org/repo-snapshots"
+resolvers += "Sonatype OSS Snapshot Repository" at "https://oss.sonatype.org/content/repositories/releases/"
  
 libraryDependencies ++= {
   val liftVersion = "2.4"
